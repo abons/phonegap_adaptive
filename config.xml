@@ -13,22 +13,12 @@
       Hardeep Shoker
   </author>
   <platform name="android">
-    <resource-file src="res/drawable/ic_launcher_background.xml" target="app/src/main/res/drawable/ic_launcher_background.xml" />
-    <resource-file src="res/drawable-v24/ic_launcher_foreground.xml" target="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" />
-    <resource-file src="res/mipmap-anydpi-v26/ic_launcher.xml" target="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" />
-    <resource-file src="res/mipmap-anydpi-v26/ic_launcher_round.xml" target="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" />
-    <resource-file src="res/mipmap-hdpi/ic_launcher.png" target="app/src/main/res/mipmap-hdpi/ic_launcher.png" />
-    <resource-file src="res/mipmap-hdpi/ic_launcher_round.png" target="app/src/main/res/mipmap-hdpi/ic_launcher_round.png" />
-    <resource-file src="res/mipmap-mdpi/ic_launcher.png" target="app/src/main/res/mipmap-mdpi/ic_launcher.png" />
-    <resource-file src="res/mipmap-mdpi/ic_launcher_round.png" target="app/src/main/res/mipmap-mdpi/ic_launcher_round.png" />
-    <resource-file src="res/mipmap-xhdpi/ic_launcher.png" target="app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-    <resource-file src="res/mipmap-xhdpi/ic_launcher_round.png" target="app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" />
-    <resource-file src="res/mipmap-xxhdpi/ic_launcher.png" target="app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-    <resource-file src="res/mipmap-xxhdpi/ic_launcher_round.png" target="app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" />
-    <resource-file src="res/mipmap-xxxhdpi/ic_launcher.png" target="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
-    <resource-file src="res/mipmap-xxxhdpi/ic_launcher_round.png" target="app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" />
-    <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
-        <application android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round" />
-    </edit-config>
+    <resource-file src="res/values/colors.xml" target="/app/src/main/res/values/colors.xml" />
+    <!-- <icon density="ldpi" background="@color/background" foreground="res/mipmap-ldpi/ic_launcher.png" /> -->
+    <icon density="mdpi" background="@color/background" foreground="res/mipmap-mdpi/ic_launcher.png" />
+    <icon density="hdpi" background="@color/background" foreground="res/mipmap-hdpi/ic_launcher.png" />
+    <icon density="xhdpi" background="@color/background" foreground="res/mipmap-xhdpi/ic_launcher.png" />
+    <icon density="xxhdpi" background="@color/background" foreground="res/mipmap-xxhdpi/ic_launcher.png" />
+    <icon density="xxxhdpi" background="@color/background" foreground="res/mipmap-xxxhdpi/ic_launcher.png" />
   </platform>
 </widget>
