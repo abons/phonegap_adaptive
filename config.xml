@@ -3,8 +3,8 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id          = "com.phonegap.example"
-    versionCode = "10"
     version     = "1.0.0" >
+  <preference name="phonegap-version" value="cli-8.1.1" />
   <name>PhoneGap Example</name>
   <description>
       An example for phonegap build docs.
