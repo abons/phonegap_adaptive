@@ -27,8 +27,8 @@
     <resource-file src="res/mipmap-xxhdpi/ic_launcher_round.png" target="res/mipmap-xxhdpi/ic_launcher_round.png" />
     <resource-file src="res/mipmap-xxxhdpi/ic_launcher.png" target="res/mipmap-xxxhdpi/ic_launcher.png" />
     <resource-file src="res/mipmap-xxxhdpi/ic_launcher_round.png" target="res/mipmap-xxxhdpi/ic_launcher_round.png" />
-    <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
+    <!-- <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
          <application android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round" />
-    </edit-config>
+    </edit-config> -->
   </platform>
 </widget>
